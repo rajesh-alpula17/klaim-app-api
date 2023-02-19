@@ -1,0 +1,15 @@
+{
+  "name": "api-json-server",
+  "version": "1.0.0",
+  "description": "JSON server API",
+  "main": "main.js",
+  "scripts": {
+    "start": "json-server --watch ./db.json",
+    "start-auth": "node server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "json-server": "^0.17.1",
+    "jsonwebtoken": "^9.0.0"
+  }
+}
